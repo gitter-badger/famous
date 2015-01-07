@@ -114,5 +114,18 @@
       "cssify",
       "deamdify"
     ]
+  },
+  "jspm": {
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "css": "jspm:css@^0.1.0"
+    },
+    "shim": {
+      "*/*": {
+        "deps": ["../core/famous.css!"]
+      }
+    }
   }
 }
