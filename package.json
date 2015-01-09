@@ -120,7 +120,7 @@
       "lib": "src"
     },
     "dependencies": {
-      "css": "jspm:css@^0.1.0"
+      "css": "^0.1.0"
     },
     "shim": {
       "*/*": {
