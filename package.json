@@ -116,6 +116,7 @@
     ]
   },
   "jspm": {
+    "registry":"jspm",
     "directories": {
       "lib": "src"
     },
